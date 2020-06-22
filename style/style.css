@@ -1,4 +1,19 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: #fcf9f9;
+}
 
 hr {
     background-color: rgb(16, 41, 87);
@@ -6,10 +21,7 @@ hr {
 }
 
 h1 {
-    display: inline-flex;
     padding: 60px;
-
-    
 }
 
 #login-signup {
@@ -20,6 +32,7 @@ h1 {
 #login {
     font-size: 30px;
 }
+
 
 .inputs {
     padding-left: 60px;
@@ -70,12 +83,20 @@ body {
     
 }
 
+
 .left-side {
     width: 50%;
    
 }
+.left-side {
+    width: 50%;
+    
+    
+    
 
-#right-side {
+}
+
+.right-side {
     width: 50%;
     padding: 60px;
     background-color: rgb(16, 41, 87);
