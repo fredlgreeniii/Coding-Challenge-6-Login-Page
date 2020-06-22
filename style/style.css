@@ -1,0 +1,86 @@
+
+
+hr {
+    background-color: rgb(16, 41, 87);
+    height: 5px;
+}
+
+h1 {
+    display: inline-flex;
+    padding: 60px;
+
+    
+}
+
+#login-signup {
+    padding-left: 60px;
+    padding-bottom: 5px;
+}
+
+#login {
+    font-size: 30px;
+}
+
+.inputs {
+    padding-left: 60px;
+    padding-bottom: 15px;
+    list-style: none;
+    line-height: 1.5;
+}
+
+#forgot-pw {
+    padding-left: 60px;
+    padding-bottom: 10px;
+
+}
+#log-in-button {
+    width: 80px;
+    background-color: rgb(31, 224, 21);
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-color: rgb(31, 224, 21);
+    color: white;
+}
+
+#track-check-detect {
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-bottom: 10px;
+    line-height: 1.5;
+   
+}
+
+#p1 {
+    font-size: 35px;
+    padding: 40px;
+    
+    
+}
+
+#p2 {
+    padding: 40px;
+    line-height: 1.5;
+}
+body {
+    font-family: sans-serif;
+    
+}
+
+#left-side {
+    width: 50%;
+    
+    
+}
+
+#right-side {
+    width: 50%;
+    padding: 60px;
+    background-color: rgb(16, 41, 87);
+    color: ghostwhite;
+    
+    
+}
