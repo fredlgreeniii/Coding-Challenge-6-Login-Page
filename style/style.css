@@ -83,12 +83,17 @@ body {
     
 }
 
+
+.left-side {
+    width: 50%;
+   
 }
 .left-side {
     width: 50%;
     
     
     
+
 }
 
 .right-side {
@@ -96,6 +101,5 @@ body {
     padding: 60px;
     background-color: rgb(16, 41, 87);
     color: ghostwhite;
-    
-    
+        
 }
