@@ -8,48 +8,48 @@
     </head>
     
     <body>
-        <header>
-            <hr>
-            <h1>Keyhub</h1>
-        </header>
+        <div class="container">
+          
+            
+            <div class="split-screen left-side">
+                <header>
+                    <hr>
+                    <h1>Keyhub</h1>
+                </header>
         
-        <section id="left-side">
-        
-    
-        
-    
+                <div id="login-signup">
+                    <span id="login">Login</span> 
+                    <span id="sign-up">Sign Up</span>
+                </div>
 
-        <div id="login-signup">
-            <span id="login">Login</span> 
-            <span id="sign-up">Sign Up</span>
-        </div>
+                <ul class="inputs">
+                    <div>
+                        <li><input type="text" placeholder="example@email.com"></li>
+                    </div>
+                    <div>
+                        <li><input type="text" placeholder="password"></li>
+                    </div>
+                </ul>
 
-        <ul class="inputs">
-            <div>
-                <li><input type="text" placeholder="example@email.com"></li>
+                <div id="forgot-pw"><p>Don't remember your Password?</p></div>
+
+                <button id="log-in-button">Log In</button>
+                
+                <footer>
+                    <ul id="track-check-detect">
+                        <i class="far fa-clock"></i><li>Track certificate expiration dates</li>
+                        <li>Check potential vulnerabilities</li>
+                        <li>Detect policy violations</li>
+                    </ul>
+                </footer> 
             </div>
-            <div>
-                <li><input type="text" placeholder="password"></li>
-            </div>
-        </ul>
 
-        <div id="forgot-pw"><p>Don't remember your Password?</p></div>
-
-        <button id="log-in-button">Log In</button>
-        <footer>
-            <ul id="track-check-detect">
-                <i class="far fa-clock"></i><li>Track certificate expiration dates</li>
-                <li>Check potential vulnerabilities</li>
-                <li>Detect policy violations</li>
-            </ul>
-        </footer> 
-        </section>
-        <section id="right-side">
-            <div>
+            <div class="split-screen right-side">  
                 <p id="p1">Certificate Lifecycle managementOn Autopilot</p>
-        
                 <p id="p2">Keyhub helps IT professionals discover, organize, and track TLS/SSL certificates, so nothing falls off the radar</p>
             </div>
-        </section>
+        
+        </div>
+
     </body>
 </html>
