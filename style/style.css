@@ -16,6 +16,7 @@
 }
 
 hr {
+    width: 101%;
     background-color: rgb(16, 41, 87);
     height: 5px;
 }
@@ -30,7 +31,8 @@ h1 {
 }
 
 #login {
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 
@@ -44,8 +46,8 @@ h1 {
 #forgot-pw {
     padding-left: 60px;
     padding-bottom: 10px;
-
 }
+
 #log-in-button {
     width: 80px;
     background-color: rgb(31, 224, 21);
@@ -63,43 +65,36 @@ h1 {
     padding-top: 10px;
     padding-left: 60px;
     padding-bottom: 10px;
-    line-height: 1.5;
-   
+    line-height: 1.5;  
 }
 
 #p1 {
     font-size: 35px;
-    padding: 40px;
-    
-    
+    padding: 40px;   
 }
 
 #p2 {
     padding: 40px;
     line-height: 1.5;
 }
+
 body {
-    font-family: sans-serif;
-    
+    font-family: sans-serif;   
 }
 
-
 .left-side {
-    width: 50%;
-   
-}
-.left-side {
-    width: 50%;
-    
-    
-    
-
+    width: 520px;
+    height: 470px;  
 }
 
 .right-side {
-    width: 50%;
+    width: 520px;
+    height: 470px;
     padding: 60px;
     background-color: rgb(16, 41, 87);
-    color: ghostwhite;
-        
+    color: ghostwhite;       
+}
+.lite-lite {
+    opacity: 50%;
+    
 }
